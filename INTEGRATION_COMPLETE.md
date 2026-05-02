@@ -12,8 +12,8 @@
 - **Solution**: Created `.env.local` with your Service ID and API Key
 - **Security**: File is gitignored and will NOT be committed to GitHub
 - **Credentials Stored**:
-  - Service ID: `ServiceId-128a50bb-376b-421b-8292-7cac027f6dc1`
-  - API Key: `ApiKey-30d2379d-2d23-4ad2-beae-b7af671c5c21`
+  - Service ID: `YOUR_SERVICE_ID`
+  - API Key: `YOUR_API_KEY`
 
 ### 3. **System Prompt Integration** ✓
 - **Issue**: No system prompt was defined for Granite model

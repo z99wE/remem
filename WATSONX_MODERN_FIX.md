@@ -63,8 +63,8 @@ If you don't see these, the project was created correctly anyway - they're now i
 WATSONX_PROJECT_ID=your-new-project-id-here
 
 # Keep everything else the same
-WATSONX_SERVICE_ID=ServiceId-128a50bb-376b-421b-8292-7cac027f6dc1
-WATSONX_API_KEY=RaSFEp9DV9hm94Fkre0_FAQJwR1P_gfmg4gg4Yq_G8we
+WATSONX_SERVICE_ID=YOUR_SERVICE_ID
+WATSONX_API_KEY=YOUR_WATSONX_API_KEY_2
 WATSONX_URL=https://us-south.ml.cloud.ibm.com
 WATSONX_MODEL_ID=ibm/granite-3-8b-instruct
 ```
@@ -76,7 +76,7 @@ WATSONX_MODEL_ID=ibm/granite-3-8b-instruct
 Your API key might need to be regenerated. Let's check:
 
 1. Go to: **https://cloud.ibm.com/iam/serviceids**
-2. Find your Service ID: `ServiceId-128a50bb-376b-421b-8292-7cac027f6dc1`
+2. Find your Service ID: `YOUR_SERVICE_ID`
 3. Click on it
 4. Click **"API keys"** tab
 5. Check if your key exists and is active

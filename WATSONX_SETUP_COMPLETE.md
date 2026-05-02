@@ -4,13 +4,13 @@
 
 ### API Keys Tested
 Both API keys you provided are **valid and authenticate successfully**:
-1. `_HD0t8efJCid4P0YrOYVAnFx8IUhSmhGAOtiM_y-GvV0` ✅
-2. `RaSFEp9DV9hm94Fkre0_FAQJwR1P_gfmg4gg4Yq_G8we` ✅
+1. `YOUR_WATSONX_API_KEY_1` ✅
+2. `YOUR_WATSONX_API_KEY_2` ✅
 
 ### Current Issue
 **Error:** `Permission Denied: Authenticated user is not a member of the project`
 
-**Cause:** The Service ID (`ServiceId-128a50bb-376b-421b-8292-7cac027f6dc1`) needs to be added as a member to your WatsonX project (`43c9f9c2-0fe6-4e7f-8257-dd06389dc546`).
+**Cause:** The Service ID (`YOUR_SERVICE_ID`) needs to be added as a member to your WatsonX project (`YOUR_PROJECT_ID`).
 
 ## 🔧 How to Fix - Add Service to Project
 
@@ -26,7 +26,7 @@ Both API keys you provided are **valid and authenticate successfully**:
 
 3. **Add Service ID:**
    - Click **"Add collaborators"** or **"Add members"**
-   - Search for: `ServiceId-128a50bb-376b-421b-8292-7cac027f6dc1`
+   - Search for: `YOUR_SERVICE_ID`
    - Select the service ID
    - Assign role: **"Editor"** or **"Admin"**
    - Click **"Add"**
@@ -69,9 +69,9 @@ If you can't add the existing service ID, create new credentials:
 
 Your `.env.local` is correctly configured with:
 ```env
-WATSONX_SERVICE_ID=ServiceId-128a50bb-376b-421b-8292-7cac027f6dc1
-WATSONX_API_KEY=RaSFEp9DV9hm94Fkre0_FAQJwR1P_gfmg4gg4Yq_G8we
-WATSONX_PROJECT_ID=43c9f9c2-0fe6-4e7f-8257-dd06389dc546
+WATSONX_SERVICE_ID=YOUR_SERVICE_ID
+WATSONX_API_KEY=YOUR_WATSONX_API_KEY_2
+WATSONX_PROJECT_ID=YOUR_PROJECT_ID
 WATSONX_URL=https://us-south.ml.cloud.ibm.com
 WATSONX_MODEL_ID=ibm/granite-3-8b-instruct
 ```

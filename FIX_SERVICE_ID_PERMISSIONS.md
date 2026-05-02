@@ -1,7 +1,7 @@
 # Fix Service ID Permissions - SOLUTION FOUND!
 
 ## The Problem
-Your Service ID `ServiceId-128a50bb-376b-421b-8292-7cac027f6dc1` has **NO access policies**. This is why you're getting 403 errors - it doesn't have permission to use Watson Machine Learning!
+Your Service ID `YOUR_SERVICE_ID` has **NO access policies**. This is why you're getting 403 errors - it doesn't have permission to use Watson Machine Learning!
 
 ---
 
@@ -132,7 +132,7 @@ WATSONX_SERVICE_ID=ServiceId-xxxxx-xxxxx-xxxxx
 WATSONX_API_KEY=your-new-api-key-here
 
 # Keep the same project ID (it's working!)
-WATSONX_PROJECT_ID=43c9f9c2-0fe6-4e7f-8257-dd06389dc546
+WATSONX_PROJECT_ID=YOUR_PROJECT_ID
 
 # Keep these the same
 WATSONX_URL=https://us-south.ml.cloud.ibm.com
