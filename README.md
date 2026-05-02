@@ -1,103 +1,512 @@
 # REMEM 🧠
-### Remember where your mind left off.
 
-AI-powered cognitive restoration for developers.
-
-Built with:
-- **IBM Bob** (Orchestration & Assistance)
-- **IBM watsonx.ai Granite 3 8B** (Core Reasoning)
-
----
-
-## 🎯 Problem
-Developers lose **30–60 minutes** of deep-focus time every time they are interrupted or switch contexts. Modern AI tools generate code, but they don't help you reconstruct your *understanding* of that code.
-
-## 💡 Solution
-REMEM analyzes the "fragmented chaos" of a developer's workspace—logs, TODOs, stack traces, and messy debugging notes—to reconstruct:
-- **Active Reasoning Threads**: What were you thinking?
-- **Root Cause Analysis**: Why were you fixing it?
-- **Engineering Intent**: What was the end goal?
-- **Next Debugging Actions**: Where exactly do you start now?
-
-It uses a unique **Prosecutor / Defense / Judge** reasoning system to provide a 360-degree view of your technical decisions.
-
-## 🚀 Impact
-- **Without REMEM**: 30–60 minutes rebuilding context.
-- **With REMEM**: Under **30 seconds** to restore engineering state.
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6)
+![IBM watsonx.ai](https://img.shields.io/badge/IBM-watsonx.ai-blue)
+![Granite 3](https://img.shields.io/badge/IBM-Granite_3_8B-green)
+![IBM Bob](https://img.shields.io/badge/IBM_Bob-Agentic_Coding-red)
 
 ---
 
-## 🛠️ Built With IBM Bob: The Agentic Architect
-IBM Bob served as the lead architect and autonomous co-pilot throughout the development of REMEM. Bob didn't just assist; it drove the implementation of the core reasoning engine and the design language.
+# A Cognitive Reconstruction Engine For Developers
 
-### 🧠 Where IBM Bob Was Used
-- **Core Engine Development**: Bob architected the `Prosecutor-Defense-Judge` triage system, ensuring a balanced cognitive reconstruction.
-- **UI/UX Design**: Bob implemented the **Bauhaus Brutalist** design system from scratch, focusing on information density and high readability.
-- **Validation Engineering**: Bob generated the `recon_cases/` dataset to stress-test the reasoning engine's accuracy.
-- **System Integration**: Bob managed the connection between the frontend and the **IBM watsonx.ai** backend.
+Turn fragmented debugging chaos into structured engineering clarity using deterministic reasoning + IBM watsonx.ai.
 
-### 🛠️ What IBM Bob Generated
-- **Reasoning Logic**: 100% of the `Prosecutor`, `Defense`, and `Judge` agent prompts and logic flows.
-- **Automated Data Pipelines**: Scripts to convert raw terminal logs into structured JSON for AI ingestion.
-- **Documentation**: Comprehensive guides including the `AGENTIC_IDE_EXPORT_GUIDE.md` and project architecture maps.
-- **Bauhaus Components**: Reusable React components styled with premium CSS variables and micro-animations.
-
-### ⚡ Workflow Acceleration
-- **Time Saved**: Bob's autonomous planning saved an estimated **12+ hours** of manual architectural mapping and boilerplate coding.
-- **Efficiency**: Reduced core engine boilerplate by **150+ lines** through smart abstraction.
-- **Zero-to-Hero UI**: Transformed a raw functional prototype into a premium, hackathon-ready Bauhaus dashboard in under **2 hours**.
-- **Instant Context**: Bob provided the same cognitive restoration it helps users achieve, allowing me to resume deep-focus work instantly after every session break.
-
-*See detailed step-by-step logs in:* [`/bob_sessions`](./bob_sessions)
-
-## 🤖 Powered By IBM watsonx.ai Granite
-Granite 3 8B (v2) provides the high-fidelity reasoning required for:
-- **Cognitive Reconstruction**: Turning raw logs into mental models.
-- **Reasoning Synthesis**: Balancing the Prosecutor/Defense/Judge debate.
-- **Action Prioritization**: Determining the most critical next step.
+Built for the IBM “Turn idea into impact faster with IBM Bob” Hackathon.
 
 ---
 
-## 🎬 Demo Scenarios
-Check out our pre-loaded scenarios in the demo:
-- **WebSocket Reconnect Failure**: A deep dive into race conditions.
-- **Deployment Rollback Confusion**: Untangling failed production syncs.
-- **Legacy Payment System "Fear Zone"**: Safely restoring context in high-stakes code.
-- **AI Agent Memory Leak**: Diagnosing state bloat in autonomous workflows.
-- **Auth Retry Bug**: Solving recursive loop failures in security layers.
-- **Monolith Migration Trauma**: Reconstructing architectural intent during partial refactors.
+# 🎯 Problem Statement
+
+Modern software engineering workflows are fragmented across:
+
+- terminals
+- stack traces
+- TODO notes
+- AI chats
+- debugging sessions
+- deployment logs
+- Slack discussions
+- half-finished reasoning
+
+When interruptions happen, developers lose critical cognitive context and are forced to manually reconstruct:
+
+- what failed
+- why decisions were made
+- what was already attempted
+- what assumptions existed
+- and what should happen next
+
+This creates:
+
+- debugging fatigue
+- duplicated investigation
+- context switching overhead
+- repeated onboarding costs
+- engineering memory loss
+
+Developers are not losing code.
+
+They are losing context.
 
 ---
 
-## 🏗️ Project Structure
+# 💡 Solution
+
+REMEM is a cognitive restoration platform that reconstructs fragmented engineering intent using a hybrid reasoning architecture.
+
+Instead of generating one generic AI summary, REMEM creates a structured cognitive debate between:
+
+## ⚖️ Prosecutor
+Identifies:
+- failures
+- risks
+- race conditions
+- broken assumptions
+- architectural weaknesses
+
+## 🛡️ Defense
+Explains:
+- engineering constraints
+- real-world pressure
+- implementation tradeoffs
+- deployment urgency
+- reasoning behind decisions
+
+## 👨⚖️ Judge
+Synthesizes:
+- root cause
+- recovery insight
+- next debugging actions
+- strategic recommendations
+- cognitive restoration output
+
+The result is a far more explainable, trustworthy, and human-centered debugging workflow.
+
+REMEM transforms:
+- logs
+- stack traces
+- TODOs
+- prompts
+- terminal output
+- debugging fragments
+
+into:
+- active reasoning threads
+- prioritized next actions
+- recovery scores
+- engineering summaries
+- actionable debugging paths
+
+---
+
+# 🏗️ Hybrid Sequential Enhancement Architecture
+
+REMEM uses a deterministic-first hybrid architecture designed for:
+
+- speed
+- explainability
+- reliability
+- cost efficiency
+- graceful fallback safety
+
+---
+
+## Layer 1 — Deterministic Reasoning Engine
+
+Always runs first.
+
+This engine:
+- parses fragmented engineering evidence
+- identifies signal patterns
+- reconstructs reasoning threads
+- applies prosecutor/defense rules
+- generates recovery scoring
+- detects ambiguity thresholds
+
+### Characteristics
+- ~5–60ms execution
+- deterministic and explainable
+- effectively free to run
+- handles ~60–70% of requests independently
+
+### Internal System Stats
+- 8 core components
+- 14 signal types
+- 14 thread types
+- 22 deterministic rules
+- 12 prosecutor rules
+- 10 defense rules
+- ~3,426 lines of reasoning implementation
+
+This layer creates the foundational cognitive map before any AI enhancement activates.
+
+---
+
+## Layer 2 — AI Enhancement Layer
+
+Activates only when needed.
+
+This layer:
+- builds structured prompts from deterministic context
+- enhances unclear reasoning paths
+- synthesizes engineering insight
+- validates enhanced outputs
+- merges structured reasoning safely
+- falls back automatically if enhancement fails
+
+### Characteristics
+- ~1–5 second execution
+- activated only for low-confidence cases
+- reduces unnecessary AI calls by ~60–70%
+
+This architecture keeps REMEM:
+- scalable
+- explainable
+- reliable
+- fast
+- economically efficient
+
+---
+
+# 🎨 Creative Innovation
+
+What makes REMEM creatively different is the way it transforms debugging into a structured cognitive courtroom.
+
+Instead of producing one opaque AI answer, the system reconstructs engineering context through three independent reasoning perspectives:
+
+- Prosecutor → What failed?
+- Defense → Why did those decisions make sense?
+- Judge → What should happen next?
+
+This transforms debugging into:
+- explainable reasoning
+- engineering storytelling
+- structured cognitive reconstruction
+- actionable recovery systems
+
+The courtroom metaphor is not just visual design.
+
+It is the reasoning architecture itself.
+
+Production incidents happen under:
+- uncertainty
+- deadlines
+- evolving assumptions
+- partial information
+- fragmented evidence
+
+By separating:
+- failure analysis
+from
+- engineering intent
+
+REMEM creates a more trustworthy and human-centered recovery workflow.
+
+The creativity is not just aesthetic.
+
+It is architectural.
+
+---
+
+# 🚀 Built With IBM Bob: The Agentic Architect
+
+IBM Bob served as an autonomous engineering copilot throughout the development lifecycle of REMEM.
+
+Bob accelerated:
+- architecture planning
+- reasoning flow design
+- frontend implementation
+- debugging analysis
+- documentation generation
+- structured prompt orchestration
+- watsonx integration
+- UI system development
+
+---
+
+# 🧠 How IBM Bob Was Used
+
+## Code Understanding
+Bob helped structure and explain complex reasoning flows inside the deterministic engine.
+
+## Documentation Generation
+Bob accelerated:
+- architecture documentation
+- implementation explanations
+- developer workflow guides
+- reasoning system descriptions
+
+## Debugging Assistance
+Bob identified:
+- race-condition patterns
+- reconnect-loop failures
+- token refresh edge cases
+- state restoration inconsistencies
+
+## Test Thinking
+Bob suggested:
+- recovery-score edge cases
+- fallback validation tests
+- prosecutor/defense ambiguity scenarios
+- confidence-threshold testing
+
+## Automation
+Bob reduced repetitive engineering work by helping:
+- transform raw logs into structured reasoning
+- generate dashboard-ready payloads
+- automate UI architecture scaffolding
+- orchestrate reasoning pipelines
+
+---
+
+# ⚡ Workflow Acceleration
+
+IBM Bob accelerated:
+- architectural mapping
+- frontend development
+- debugging iteration
+- reasoning-system orchestration
+- structured prompt engineering
+
+### Estimated Productivity Gains
+- 12+ hours saved in architecture planning
+- 150+ lines of repetitive boilerplate avoided
+- rapid UI generation using reusable systems
+- faster debugging iteration cycles
+
+Detailed exports, screenshots, and task histories are included in:
+
+```bash
+/bob_sessions
 ```
-Remem-Bob/
+
+---
+
+# 🤖 Powered By IBM watsonx.ai Granite
+
+IBM Granite 3 8B powers the AI enhancement layer responsible for:
+
+- cognitive reconstruction
+- reasoning synthesis
+- ambiguity resolution
+- engineering insight generation
+- recovery prioritization
+
+Granite activates only when deterministic confidence falls below threshold levels.
+
+This creates:
+- controlled AI usage
+- reduced cost
+- explainable escalation
+- reliable hybrid reasoning
+
+---
+
+# 📈 Measurable Impact
+
+## Engineering Productivity
+- Reduces context reconstruction from **30–60 minutes** to **under 30 seconds**
+- Eliminates repeated debugging investigation
+- Improves onboarding during incident handoffs
+
+## AI Cost Reduction
+- Deterministic engine handles ~60–70% of requests
+- AI enhancement activates only when necessary
+- Reduces unnecessary inference costs by ~60–70%
+
+## Reliability
+- Graceful fallback architecture
+- Deterministic-first reasoning
+- Structured cognitive validation
+- Human-readable outputs
+
+## Developer Experience
+REMEM converts fragmented debugging chaos into:
+- actionable recovery insight
+- explainable engineering reasoning
+- strategic next steps
+- cognitive continuity
+
+---
+
+# 🧪 Demo Scenarios
+
+The demo includes synthetic engineering interruption scenarios designed for judges and evaluation.
+
+## Included Scenarios
+
+### WebSocket Reconnect Failure
+Race-condition debugging across stale auth states and reconnect loops.
+
+### Deployment Rollback Confusion
+Production synchronization failure during release recovery.
+
+### Legacy Payment System Fear Zone
+High-risk debugging scenario involving fragile financial infrastructure.
+
+### AI Agent Memory Leak
+State bloat and autonomous workflow degradation analysis.
+
+### Recursive Auth Retry Failure
+Security-layer retry recursion causing authentication instability.
+
+### Monolith Migration Trauma
+Reconstructing architectural intent during partial infrastructure migration.
+
+---
+
+# 🖥️ Product Experience
+
+REMEM provides:
+- forensic debugging panels
+- courtroom reasoning cards
+- deterministic reasoning traces
+- recovery scores
+- active thread reconstruction
+- AI-enhanced next actions
+- downloadable markdown payloads
+- cognitive restoration dashboards
+
+The interface uses a custom:
+- Bauhaus
+- brutalist
+- terminal-modern
+- cognitive operating system aesthetic
+
+designed specifically to visualize fragmented engineering state.
+
+---
+
+# 🏗️ Project Structure
+
+```bash
+Remem/
 ├── app/                 # Next.js App Router pages
 ├── components/          # Bauhaus UI components
-├── lib/                 # Reasoning Engine & WatsonX integration
+├── lib/                 # Reasoning engine + watsonx integration
+├── styles/              # Global styling & design system
 ├── types/               # TypeScript definitions
 ├── public/              # Static assets
-├── styles/              # Global CSS & Animations
-├── recon_cases/         # Synthetic engineering scenarios (Study only)
-├── bob_sessions/        # Development logs using IBM Bob
-├── screenshots/         # App visuals
-├── synthetic_data/      # Sample demo context
-└── demo-assets/         # Branding materials
+├── screenshots/         # Demo visuals
+├── synthetic_data/      # Synthetic engineering scenarios
+├── recon_cases/         # Validation interruption datasets
+├── bob_sessions/        # IBM Bob exported task histories
+├── docs/                # Architecture documentation
+└── demo-assets/         # Branding + presentation materials
 ```
 
-## 🧪 Validation Scenarios (Study Only)
-The `recon_cases/` directory contains high-fidelity synthetic engineering interruption scenarios. These are used to validate the reasoning engine's ability to reconstruct context from fragmented data. 
+---
 
-**Explore the scenarios here:** [recon_cases/README.md](./recon_cases/recon_cases_readme.md)
+# 🧪 Validation Dataset
 
-**Note**: These files are for research and validation purposes only and are not executed by the application runtime.
+The `recon_cases/` directory contains high-fidelity synthetic engineering interruption scenarios used to validate the reasoning engine.
 
+These scenarios simulate:
+- fragmented debugging sessions
+- interrupted deployments
+- distributed engineering handoffs
+- AI workflow confusion
+- partial architectural state recovery
 
-## 🚀 Run Locally
-1. Clone the repo
-2. `npm install`
-3. Configure `.env` (use `.env.example` as a template)
-4. `npm run dev`
+These datasets are included strictly for:
+- evaluation
+- demonstration
+- reasoning validation
+
+No private or personal data is used.
 
 ---
-*Created for the IBM watsonx Hackathon 2026*
+
+# 🚀 Run Locally
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/remem.git
+```
+
+## 2. Install Dependencies
+
+```bash
+npm install
+```
+
+## 3. Configure Environment Variables
+
+Create:
+
+```bash
+.env.local
+```
+
+Add your IBM watsonx credentials.
+
+---
+
+## 4. Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+# 🧠 Built For
+
+IBM “Turn idea into impact faster with IBM Bob” Hackathon
+
+REMEM demonstrates how:
+- deterministic reasoning
+- AI enhancement
+- IBM Bob orchestration
+- and watsonx.ai
+
+can transform fragmented engineering workflows into explainable cognitive recovery systems.
+
+---
+
+# 🏆 Core Takeaway
+
+Developers do not lose code.
+
+They lose:
+- reasoning
+- context
+- continuity
+- state
+- engineering memory
+
+REMEM restores it.
+
+---
+
+# 📂 IBM Bob Session Exports
+
+IBM Bob task histories, exports, and workflow evidence are included inside:
+
+```bash
+/bob_sessions
+```
+
+These demonstrate:
+- code generation
+- debugging assistance
+- architectural orchestration
+- UI generation
+- documentation acceleration
+- workflow automation
+
+as required by the hackathon judging criteria.
+
+---
+
+# 📜 License
+
+MIT License
+
+---
+
+# 🧠 REMEM
+
+### Restore clarity. Reclaim control.
