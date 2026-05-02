@@ -1,0 +1,4 @@
+Why is the partial migration causing architecture instability?
+Could compatibility layers create duplicated business logic?
+How do I debug architecture drift during monolith decomposition?
+What causes inconsistent auth states between legacy and microservices?

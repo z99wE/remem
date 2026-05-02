@@ -1,0 +1,4 @@
+Why is billingEngine.ts so difficult to modify safely?
+Could legacy tax fallback logic be causing duplicate invoices?
+How do I trace undocumented billing dependencies?
+What causes reconciliation queue instability in legacy payment systems?

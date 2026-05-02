@@ -1,0 +1,8 @@
+[INFO] Starting monolith-to-microservice migration
+[WARN] Legacy service routing fallback triggered
+[ERROR] API gateway failed to resolve userProfileService
+[WARN] Mixed monolith and microservice auth states detected
+[ERROR] Duplicate database writes observed during migration sync
+[INFO] Temporary compatibility layer enabled
+[WARN] Event bus schema mismatch detected
+[ERROR] Service discovery timeout in migrationCoordinator.ts

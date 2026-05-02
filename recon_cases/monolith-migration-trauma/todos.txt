@@ -1,0 +1,5 @@
+- inspect migrationCoordinator.ts
+- trace compatibility layer lifecycle
+- validate event bus schema consistency
+- verify service discovery registration
+- identify duplicated business logic pathways

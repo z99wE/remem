@@ -1,0 +1,4 @@
+Nobody on the team fully understands billingEngine.ts anymore.
+The file contains multiple legacy billing pathways and undocumented fallback logic.
+Previous developers avoided refactoring due to fear of breaking invoice reconciliation.
+Need to identify hidden dependencies before touching retry logic.

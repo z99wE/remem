@@ -1,0 +1,4 @@
+Memory usage keeps increasing after each agent restart.
+Possible orphaned async tasks not being garbage collected.
+Retry scheduler may be recursively spawning workers.
+Need to verify cleanup lifecycle during agent shutdown.

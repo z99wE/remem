@@ -1,0 +1,4 @@
+Deployment pipeline partially restored old containers but health checks still fail.
+Possible mismatch between environment variables and rollback snapshots.
+Kubernetes restart loop may be caused by stale service discovery state.
+Need to inspect rollback ordering and cleanup timing.

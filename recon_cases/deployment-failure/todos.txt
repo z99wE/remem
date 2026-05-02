@@ -1,0 +1,5 @@
+- inspect rollbackManager.ts
+- verify deployment environment variables
+- analyze Kubernetes pod health checks
+- validate rollback cleanup lifecycle
+- trace CI/CD pipeline execution order

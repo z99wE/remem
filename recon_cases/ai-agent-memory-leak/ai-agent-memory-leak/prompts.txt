@@ -1,0 +1,4 @@
+Why are background AI agents consuming memory continuously?
+Could recursive retries create orphaned workers?
+How do I debug memory leaks in async agent systems?
+What causes event listener leaks in Node.js AI workers?

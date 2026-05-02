@@ -1,0 +1,10 @@
+{
+  "thought_threads": [
+    "websocket reconnect loops",
+    "duplicate heartbeat listeners"
+  ],
+  "prosecutor": "Reconnect lifecycle likely leaves stale listeners.",
+  "defense": "Reconnect system prioritized uptime.",
+  "judge": "Inspect websocketClient.ts cleanup lifecycle.",
+  "recovery_score": 92
+}

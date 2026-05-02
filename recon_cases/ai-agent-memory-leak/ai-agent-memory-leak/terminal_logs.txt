@@ -1,0 +1,7 @@
+[WARN] AgentWorker memory usage exceeded 1.8GB
+[ERROR] Heap allocation spike detected
+[INFO] Restarting background summarization agent
+[WARN] Recursive task queue detected in memoryManager.ts
+[ERROR] Orphaned async process still active after cleanup
+[WARN] AI worker retry loop triggered 47 times
+[ERROR] Event listener leak suspected in agentCoordinator.ts

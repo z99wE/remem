@@ -1,0 +1,8 @@
+[INFO] Starting CI/CD deployment pipeline
+[WARN] Docker image build succeeded but container health checks failed
+[ERROR] Production deployment timeout after 300s
+[WARN] Rollback initiated automatically
+[ERROR] Rollback failed due to stale environment variables
+[INFO] Previous deployment partially restored
+[WARN] Kubernetes pod restart loop detected
+[ERROR] Service endpoint returning 502 Bad Gateway

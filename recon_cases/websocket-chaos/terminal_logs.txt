@@ -1,0 +1,2 @@
+[WARN] WebSocket reconnect triggered 27 times
+[ERROR] Connection state mismatch detected

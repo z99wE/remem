@@ -1,0 +1,5 @@
+- inspect billingEngine.ts dependency graph
+- identify deprecated billing adapters
+- verify tax calculation fallback logic
+- trace invoice duplication lifecycle
+- document undocumented billing dependencies

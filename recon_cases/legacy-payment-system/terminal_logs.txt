@@ -1,0 +1,7 @@
+[WARN] billingEngine.ts execution time exceeded 4200ms
+[ERROR] Duplicate invoice generation detected
+[WARN] Legacy tax calculation fallback triggered
+[INFO] Attempting recovery using deprecated billing adapter
+[ERROR] Unknown dependency detected in paymentAggregator.ts
+[WARN] Billing reconciliation queue backlog growing
+[ERROR] Circular payment retry detected

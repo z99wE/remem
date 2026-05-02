@@ -1,0 +1,5 @@
+- inspect memoryManager.ts
+- trace orphaned worker lifecycle
+- verify cleanup handlers
+- analyze retry queue recursion
+- check event listener disposal

@@ -1,0 +1,4 @@
+src/migration/migrationCoordinator.ts
+src/gateway/apiGateway.ts
+src/auth/legacyAuthBridge.ts
+src/services/userProfileService.ts

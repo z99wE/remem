@@ -1,0 +1,4 @@
+The migration was paused halfway due to production instability.
+Parts of the monolith still control authentication and billing flows.
+Microservices and legacy systems are duplicating certain business operations.
+Need to identify architecture drift before completing decomposition.

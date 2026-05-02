@@ -1,0 +1,4 @@
+Why did the deployment rollback fail?
+Could stale environment variables break rollback restoration?
+How do I debug Kubernetes restart loops after rollback?
+What causes partial deployment recovery states?
